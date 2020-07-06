@@ -1,0 +1,10 @@
+[root@bi-prodiscovery-001 ~]# ls
+dead.letter  dist_tools_v2  log              ps_allow_original  sdev_tools  sxid_install.log  tcs_tools  trash_remove
+dist_tools   hook_bash      MASTER_20191214  sdev_src           src         system_tools      tmp
+[root@bi-prodiscovery-001 ~]# who
+root     pts/1        2020-07-06 15:46 (211.196.153.25)
+[root@bi-prodiscovery-001 ~]# 
+[root@bi-prodiscovery-001 ~]# 
+[root@bi-prodiscovery-001 ~]# ps -efr
+  PID TTY      STAT   TIME COMMAND
+29307 pts/1    R+     0:00 ps -efr XDG_SESSION_ID=2174116 HOSTNAME=bi-prodiscovery-001.hanpda.com TERM=linux SHELL=/bin/bash HISTSIZE=1000 SSH_CLIENT=211.196.153.25 5295
